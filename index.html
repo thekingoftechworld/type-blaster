@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Type Blaster Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="hud">
+            <div>SCORE: <span id="score">0</span> | WAVE: <span id="wave-display">1</span></div>
+            <div id="lives-container">❤️❤️❤️</div>
+        </div>
+
+        <canvas id="gameCanvas" width="480" height="720"></canvas>
+
+        <div id="overlay">
+            <h1 style="color: #39ff14; text-shadow: 0 0 10px #39ff14;">TYPE BLASTER</h1>
+            <p>Type the words to shoot!</p>
+            <button id="start-btn" onclick="startGame()">START MISSION</button>
+        </div>
+
+        <div id="game-over-screen" class="hidden">
+    <h2 class="neon-text" style="color: #ff0055;">MISSION FAILED</h2>
+    <div id="final-stats">
+        <p>SCORE: <span id="final-score">0</span></p>
+        <p>WAVE REACHED: <span id="final-wave">1</span></p>
+        <p>ACCURACY: <span id="final-accuracy">0</span>%</p>
+        <p>LONGEST STREAK: <span id="final-streak">0</span></p>
+    </div>
+    <button onclick="location.reload()">RETRY MISSION</button>
+    </div>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

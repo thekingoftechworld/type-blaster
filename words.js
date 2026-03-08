@@ -1,0 +1,5 @@
+const wordBank = {
+    easy: ["cat", "dog", "fish", "bird", "tree", "book", "sun", "moon", "star", "fire", "ball", "fast", "slow", "blue", "red", "jump", "run", "walk", "cake", "milk", "hand", "foot", "desk", "lamp", "road", "park", "city", "gold", "iron", "wind", "rain", "snow", "cold", "hot", "door"],
+    medium: ["planet", "window", "garden", "school", "rocket", "orange", "banana", "player", "silver", "energy", "system", "bridge", "forest", "nature", "camera", "button", "screen", "mobile", "laptop", "bottle", "ground", "flight", "dragon", "knight", "island", "puzzle", "action", "winter", "summer", "spring", "autumn", "simple", "danger", "active", "future"],
+    hard: ["keyboard", "monitor", "software", "variable", "database", "function", "graphics", "internet", "security", "protocol", "algorithm", "frequency", "interface", "workspace", "framework", "broadcast", "adventure", "knowledge", "mysterious", "discovery", "satellite", "atmosphere", "everything", "experience", "javascript", "generation", "restaurant", "strawberry", "connection", "performance", "successful", "leadership"]
+};
